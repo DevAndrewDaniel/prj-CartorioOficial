@@ -1,0 +1,16 @@
+// Questão 1 – Classe e Objeto
+public class Aluno {
+    String nome;
+    String matricula;
+
+    public static void main(String[] args) {
+        // Criando objeto Aluno com meus dados
+        Aluno aluno1 = new Aluno();
+        aluno1.nome = "Andrew Daniel Melo Teixeira";
+        aluno1.matricula = "24128294-5";
+
+        // Exibindo os dados no console
+        System.out.println("Nome: " + aluno1.nome);
+        System.out.println("Matrícula: " + aluno1.matricula);
+    }
+}
